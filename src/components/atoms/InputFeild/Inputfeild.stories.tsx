@@ -22,6 +22,6 @@ const meta: Meta<typeof DefaultInputFeild> = {
     },
   };
   InputFeild.args = {
-    value: "",
+    value: "default",
     placeHolder:'type here..',
   };
