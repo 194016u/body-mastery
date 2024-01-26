@@ -3,13 +3,29 @@ import "./index.scss";
 
 interface IProps {
   label: string;
+  font:
+    |"Birds of Paradise  Personal use"
+    |"Gilroy"
+    |"Gilroy-Regular"
+    |"Nexa"
+    |"Quicksand";
   variant:
-    | "h1"
-    | "h2"
-    | "h3"
-    | "h4"
-    | "h5"
-    | "h6"
+    | "v1"
+    | "v2"
+    | "v3"
+    | "v4"
+    | "v5"
+    | "v6"
+    | "v7"
+    | "v8"
+    | "v9"
+    | "v10"
+    | "v11"
+    | "v12"
+    | "v13"
+    | "v14"
+    | "v15"
+    | "v16"
     | "text";
   link?: string;
   linkColor?: string;
@@ -19,6 +35,7 @@ interface IProps {
 
 export const Typography = ({
   label,
+  font,
   variant,
   link,
   linkColor,
@@ -47,6 +64,13 @@ export const Typography = ({
             styles && `${styles}`
           )}
         >
+          <div
+          className={classNames(
+            !className ? "default" : className,
+            font,
+            styles && `${styles}`
+          )}
+        ></div>
           {label ? label : "Typography"}
         </div>
       )}

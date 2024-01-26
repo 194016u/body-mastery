@@ -18,13 +18,33 @@ export const Typography: Story = {
   argTypes: {
     variant: {
       options: [
-        "h1",
-        "h2",
-        "h3",
-        "h4",
-        "h5",
-        "h6",
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v9",
+        "v10",
+        "v11",
+        "v12",
+        "v13",
+        "v14",
+        "v15",
+        "v16",
         "text",
+      ],
+      control: { type: "radio" },
+    },
+    font: {
+      options: [
+        "Birds of Paradise  Personal use",
+        "Gilroy",
+        "Gilroy-Regular",
+        "Nexa",
+        "Quicksand",
       ],
       control: { type: "radio" },
     },
@@ -40,7 +60,7 @@ export const Typography: Story = {
   },
   args: {
     theme:'light',
-    variant:'h1'
+    variant:'v1'
   },
   render: function Render(args) {
     return (
