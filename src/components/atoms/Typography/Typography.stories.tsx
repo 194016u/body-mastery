@@ -49,7 +49,23 @@ export const Typography: Story = {
       control: { type: "radio" },
     },
     color: {
-      options: ["red", "green", "blue"],
+      options: [
+        "gunmetalGray",
+         "grayish", 
+         "cottonCandyPink",
+         "richBlack",
+         "white",
+         "paleGreen",
+         "paleMagenta",
+         "alabaster",
+         "gradientpinks",
+         "deepLilac",
+         "tumbleweed",
+         "goldenrod",
+         "black",
+         "purpleMountainMajesty",
+         "russianViolet",
+        ],
       control: { type: "radio" },
     },
   },
@@ -57,7 +73,7 @@ export const Typography: Story = {
     label:"Typography",
     variant: "v1",
     font: "Birds-of-Paradise",
-    color:"red"
+    color:"cottonCandyPink",
   },
   render: function Render(args) {
     return (

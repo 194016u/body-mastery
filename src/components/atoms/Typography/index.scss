@@ -1,4 +1,5 @@
 @import"./../../../styles/fonts/fonts";
+@import"./../../../styles/palettes/color.scss";
 
 .Birds-of-Paradise{
   font-family: Birds-of-Paradise;
@@ -74,14 +75,61 @@
   font-size: 120px;
 }
 
-.red{
-  color: red;
+.gunmetalGray{
+  color: $gunmetalGray;
+}
+.grayish{
+  color: $grayish;
 }
 
-.green{
-color: green;
+.cottonCandyPink{
+  color:$cottonCandyPink;
 }
 
-.blue{
-  color: blue;
+.richBlack{
+  color: $richBlack;
+}
+
+.white{
+  color:$white;
+}
+
+.paleGreen{
+  color: $paleGreen;
+}
+
+.paleMagenta{
+  color: $paleMagenta;
+}
+
+.alabaster{
+  color: $alabaster;
+}
+
+.gradientpinks{
+  color: $gradientpinks;
+}
+
+.deepLilac{
+  color: $deepLilac;
+}
+
+.tumbleweed{
+  color:$tumbleweed;
+}
+
+.goldenrod{
+  color: $goldenrod;
+}
+
+.black{
+  color: $black;
+}
+
+.purpleMountainMajesty{
+  color: $purpleMountainMajesty;
+}
+
+.russianViolet{
+  color: $russianViolet;
 }

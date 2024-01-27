@@ -3,7 +3,24 @@ import "./index.scss";
 
 interface IProps {
   label: string;
-  color: string;
+  color: 
+    |"gunmetalGray"
+    |"grayish"
+    |"cottonCandyPink"
+    |"richBlack"
+    |"white"
+    |"paleGreen"
+    |"paleMagenta"
+    |"alabaster"
+    |"gradientpinks"
+    |"deepLilac"
+    |"tumbleweed"
+    |"goldenrod"
+    |"black"
+    |"purpleMountainMajesty"
+    |"russianViolet";
+
+
   font:
     | "Birds-of-Paradise"
     | "Gilroy-light"

@@ -1,34 +1,27 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { SelectOption as DefaultSelectionOption } from ".";
+import { SelectOption as DefaultSelectOption } from ".";
 
-const meta: Meta<typeof DefaultSelectionOption> = {
-  component: DefaultSelectionOption,
+type TextOptionProps = React.ComponentProps<typeof DefaultSelectOption> & {
+  theme?: string;
+};
+
+const meta: Meta<TextOptionProps> = {
+  component: DefaultSelectOption,
   tags: ["autodocs"],
-  title: "Component/atoms/SelectOption",
+  title: "Component/atoms/TextOption",
 };
 
 export default meta;
-type Story = StoryObj<typeof DefaultSelectionOption>;
+type Story = StoryObj<TextOptionProps>;
 
 export const SelectOption: Story = {
   render: function Render(args) {
     return (
       <>
         <div>
-          <DefaultSelectionOption {...args} />
+          <DefaultSelectOption />
         </div>
       </>
     );
-  },
-};
-
-SelectOption.args={
-    type:"radio",
-}
-
-SelectOption.argTypes = {
-  type: {
-    options: ["checkbox", "radio"],
-    control: { type: "radio" },
   },
 };

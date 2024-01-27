@@ -1,18 +1,22 @@
 import classNames from "classnames";
-import './index.scss';
+import "./index.scss";
 
-interface IProps{
-    type:"checkbox"|"radio";
-    onChange?: () => void;
-    styles:string;
+interface IProps {
+  styles?: string;
 }
 
-export const SelectOption =({type,onChange,styles}: IProps) =>{
-    return(
-        <div>
-          <input type={type} className={classNames('select-option',styles && `${styles}`)}/>
+export const SelectOption = ({ styles }: IProps) => {
+  return (
+    <div className="select-option-body">
+      <div className="wrapper">
+        <div
+          className={classNames("non-customize-bg", {
+            [`${styles}`]: styles,
+          })}
+        >
+          <input type="checkbox" />
         </div>
-    )
-}
-
-
+      </div>
+    </div>
+  );
+};
