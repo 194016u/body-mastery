@@ -3,12 +3,13 @@ import "./index.scss";
 
 interface IProps {
   label: string;
+  color: string;
   font:
-    |"Birds of Paradise  Personal use"
-    |"Gilroy"
-    |"Gilroy-Regular"
-    |"Nexa"
-    |"Quicksand";
+    | "Birds-of-Paradise"
+    | "Gilroy-light"
+    | "Gilroy-Regular"
+    | "Nexa"
+    | "Quicksand";
   variant:
     | "v1"
     | "v2"
@@ -27,53 +28,13 @@ interface IProps {
     | "v15"
     | "v16"
     | "text";
-  link?: string;
-  linkColor?: string;
-  className?: string;
   styles?: string;
 }
 
-export const Typography = ({
-  label,
-  font,
-  variant,
-  link,
-  linkColor,
-  className,
-  styles,
-}: IProps) => {
+export const Typography = ({ label, font, variant, color, styles }: IProps) => {
   return (
-    <>
-      {link ? (
-        <a
-          className={classNames(
-            !className ? "default" : className,
-            "text",
-            link && `link-${linkColor}`,
-            styles && `${styles}`
-          )}
-          href={link}
-        >
-          {label ? label : "Typography"}
-        </a>
-      ) : (
-        <div
-          className={classNames(
-            !className ? "default" : className,
-            variant,
-            styles && `${styles}`
-          )}
-        >
-          <div
-          className={classNames(
-            !className ? "default" : className,
-            font,
-            styles && `${styles}`
-          )}
-        ></div>
-          {label ? label : "Typography"}
-        </div>
-      )}
-    </>
+    <div className={classNames(`${font}`, `${variant}`, `${color}`, styles && `${styles}`)}>
+      {label}
+    </div>
   );
 };

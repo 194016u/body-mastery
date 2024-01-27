@@ -40,27 +40,24 @@ export const Typography: Story = {
     },
     font: {
       options: [
-        "Birds of Paradise  Personal use",
-        "Gilroy",
+        "Birds-of-Paradise",
+        "Gilroy-light",
         "Gilroy-Regular",
         "Nexa",
         "Quicksand",
       ],
       control: { type: "radio" },
     },
-    linkColor: {
-      options: ["red", "green"],
-      control: { type: "radio" },
-    },
-
-    theme: {
-      options: ["light", "dark"],
+    color: {
+      options: ["red", "green", "blue"],
       control: { type: "radio" },
     },
   },
   args: {
-    theme:'light',
-    variant:'v1'
+    label:"Typography",
+    variant: "v1",
+    font: "Birds-of-Paradise",
+    color:"red"
   },
   render: function Render(args) {
     return (
