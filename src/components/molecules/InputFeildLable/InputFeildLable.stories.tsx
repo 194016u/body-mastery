@@ -25,7 +25,8 @@ export const InputFeildLabel: Story = {
         "Your Name",
         "Your Phone Number",
         "Your Email",
-      ]
+      ],
+      control:{type:"radio"}
     }
   },
     render: function Render(args) {
