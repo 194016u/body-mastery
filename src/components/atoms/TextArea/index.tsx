@@ -4,7 +4,7 @@ import './index.scss';
 interface IProps{
    
     placeHolder:string;
-    value:string;
+    value:any;
     styles?:string;
 }
 export const TextArea = ({placeHolder,value,styles}: IProps)=> {

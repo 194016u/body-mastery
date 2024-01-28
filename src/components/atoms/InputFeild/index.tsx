@@ -3,8 +3,8 @@ import './index.scss';
 
 interface IProps{
     placeHolder:string;
-    value:string;
-    styles:string;
+    value:any;
+    styles?:string;
 }
 
 export const InputFeild = ({placeHolder,value,styles}: IProps)=> {

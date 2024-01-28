@@ -1,0 +1,24 @@
+
+
+.input-field{
+
+    width: 550px;
+    height: 71px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #767676;
+}
+
+
+.input-field::placeholder{
+    width: 83px;
+    height: 23px;
+    flex-shrink: 0;
+    color: #767676;
+
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

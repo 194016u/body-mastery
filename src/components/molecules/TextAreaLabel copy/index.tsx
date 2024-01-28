@@ -2,20 +2,27 @@ import classNames from "classnames";
 import { Typography } from "../../atoms/Typography";
 import { TextArea } from "../../atoms/TextArea";
 import "./index.scss";
+import { useState } from "react";
+
+
 
 export const TextAreaLabel = () => {
+
+  const [value, setValue] = useState<string | null>('');
+
+
   return (
     <div className={classNames("text-area-label-wrapper")}>
       <div className="typography">
         <Typography
-          label="Pricing"
+          label="Message"
           font="Quicksand"
           variant="v2"
-          color="black"
+          color="gunmetalGray"
         />
       </div>
       <div className="text-area">
-        <TextArea />
+        <TextArea placeHolder="Your Message" value={value}/>
       </div>
     </div>
   );

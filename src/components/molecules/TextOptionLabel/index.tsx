@@ -4,6 +4,9 @@ import { SelectOption } from "../../atoms/SelectOption";
 import "./index.scss";
 
 export const TextOptionLabel = () => {
+  
+
+
   return (
     <div className={classNames("text-option-label-wrapper")}>
       <div className="check-box">

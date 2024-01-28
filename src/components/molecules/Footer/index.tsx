@@ -13,9 +13,9 @@ export const Footer =({styles}: IProps)=>{
         <div className="typography">
         <Typography
           label="Copyright 2023.All Rights Reserved."
-          font="Quicksand"
+          font="Gilroy-Light"
           variant="v2"
-          color="black"
+          color="prichBlack"
         />
       </div>
         </footer>
