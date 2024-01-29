@@ -1,6 +1,7 @@
 import classNames from "classnames";
 import { InputFeildLabel } from "../../molecules/InputFeildLabel";
 import {TextAreaLabel} from "../../molecules/TextAreaLabel";
+import "./index.scss"; 
 
 export const InputFeildSection = ()=>{
 
