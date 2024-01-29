@@ -12,10 +12,10 @@ export const Footer =({styles}: IProps)=>{
         <footer className={classNames('footer-feild',styles && `${styles}`)}>
         <div className="typography">
         <Typography
-          label="Copyright 2023.All Rights Reserved."
-          font="Gilroy-Light"
-          variant="v2"
-          color="prichBlack"
+            label="Copyright 2023.All Rights Reserved."
+            variant="v2" 
+            color="richBlack" 
+            font="Gilroy-light"          
         />
       </div>
         </footer>

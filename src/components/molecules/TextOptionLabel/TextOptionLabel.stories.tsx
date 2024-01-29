@@ -12,7 +12,7 @@ type Story = StoryObj<typeof DefaultTextOptionLabel>;
 
 export const TextOptionLabel: Story = {
   argTypes:{
-    label:{
+    lable:{
       option:[
         "Pricing",
         "Booking",
