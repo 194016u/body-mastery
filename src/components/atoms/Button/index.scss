@@ -9,16 +9,25 @@
 
   .btn {
     width: 217px;
-    background-color: #f3b1cd;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 80px;
+    background: #F3B1CD;    
   }
 
   .btn-secondary {
     width: 180px;
-    background-color: #c2d5a8;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 80px;
+    border: 1px solid #C2D5A8;
   }
 
   .submit {
     width: 146px;
-    background-color: #f3b1cd;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 80px;
+    background: #F3B1CD;
   }
 }
