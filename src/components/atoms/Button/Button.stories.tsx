@@ -21,14 +21,14 @@ export const Button: Story = {
     );
   },
 };
-Button.args = {
-  label: "Book Appointment",
-  type:'bookAppointment',
-};
+// Button.args = {
+//   label: "Book Appointment",
+//   type:'bookAppointment',
+// };
 
 Button.argTypes = {
   type: {
-    options: ["bookAppointment", "contactUs","submit"],
+    options: ["bookAppointment", "contactUs","submit","close","leftarrow","rightarrow"],
     control: { type: "radio" },
   },
 };

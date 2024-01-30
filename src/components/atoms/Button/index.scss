@@ -1,6 +1,7 @@
 @import "./../../../styles/fonts/fonts";
 @import "./../../../styles/palettes/color.scss";
 
+
 .btn-wrapper {
   .default-btn {
     height: 54px;
@@ -30,4 +31,9 @@
     border-radius: 80px;
     background: #F3B1CD;
   }
+  
+}
+
+.close{
+  background-image: url('../../../assets/close.svg');
 }

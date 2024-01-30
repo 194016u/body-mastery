@@ -5,8 +5,10 @@ import "./index.scss";
 import { useState } from "react";
 
 interface IProps{
-  label:"Name"|"Phone Number"|"Email";
-  placeholder:"Your Name"|"Your Phone Number"|"Your Email";
+  label:string;
+  // "Name"|"Phone Number"|"Email";
+  placeholder:string;
+  // "Your Name"|"Your Phone Number"|"Your Email";
 }
 
 export const InputFeildLabel = ({label,placeholder}:IProps) => {
