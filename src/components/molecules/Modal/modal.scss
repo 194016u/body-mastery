@@ -1,0 +1,24 @@
+.modal-sample-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 818px;
+  height: 568px;
+
+  .model-image {
+    height: 272px;
+    width: 316px;
+  }
+}
+
+
+    .close-image{
+        display: flex;
+        justify-content: end;
+    }
+    
+.modal-sample-body-wrapper {
+  padding-top: 15px;
+}
