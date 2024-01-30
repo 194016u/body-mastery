@@ -18,7 +18,8 @@ interface IProps {
     |"goldenrod"
     |"black"
     |"purpleMountainMajesty"
-    |"russianViolet";
+    |"russianViolet"
+    |"pink";
 
 
   font:

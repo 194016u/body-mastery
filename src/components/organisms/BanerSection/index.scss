@@ -1,0 +1,39 @@
+.baner-section-wrapper {
+  width: 100%;
+  background: linear-gradient(180deg, #ebffcf 0%, #fbe5d8 51.56%, #f6c2cf 100%);
+  padding: 40px 0px 61px 0px;
+
+  .up-both-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 104px 0px 74px;
+  }
+
+  .main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+    .second-typography-section {
+      margin-top: 10px;
+    }
+  }
+
+  .bottom-both-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 203px 0px 176px;
+
+    .img-03 {
+      padding-top: 56px;
+    }
+
+    .img-04 {
+      padding-top: 32px;
+    }
+  }
+}

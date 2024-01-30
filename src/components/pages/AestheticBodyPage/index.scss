@@ -1,0 +1,25 @@
+@import "./../../../styles/palettes/color.scss";
+.aesthetic-navbar-section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+  .aesthetic-navbar-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 24px 100px 24px 0px;
+  }
+  .aesthetic-baner-section {
+    width: 1440px;
+    height: 541px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #EBFFCF 0%, #FBE5D8 51.56%, #F6C2CF 100%);
+
+
+  }
+}
