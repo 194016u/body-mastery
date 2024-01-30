@@ -1,13 +1,14 @@
   .input-feild-section-wrapper{
-    width: 1440px;
-    height: 96px;
+    // width: 1440px;
+    width: 100%;
+    height: fit-content;
     flex-shrink: 0;
 
     background: #FFF;
     height: fit-content;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 23px;
     justify-content: start;
 
   }  

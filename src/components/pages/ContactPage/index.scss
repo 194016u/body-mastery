@@ -1,0 +1,66 @@
+@import "./../../../styles/palettes/color.scss";
+
+.contact-page-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+  .navbar-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 24px 100px 24px 0px;
+  }
+
+  .contact-body-section {
+    // width: 1440px;
+    // height: 1281px;
+    padding: 100px;
+    background: #fffbf1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .contact-form-section {
+      width: 1240px;
+      padding: 21px;
+      height: fit-content;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border-radius: 30px;
+      background: #fff;
+      box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+
+      .contact-input-feild-section {
+        height: fit-content;
+        display: flex;
+        gap: 23px;
+        flex-direction: column;
+        justify-content: start;
+        padding-left: 41px;
+        padding-right: 41px;
+        width: 50%;
+        
+
+        .span-style{
+            color: $cottonCandyPink;
+        }
+
+        .button-section{
+          display: flex;
+          flex-direction: column;
+          justify-content: start;
+          gap: 23px;
+        }
+      }
+      .image-section{
+        width: 50%;
+      }
+    }
+  }
+}
+

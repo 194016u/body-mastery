@@ -26,6 +26,8 @@ interface IProps {
     | "Gilroy-light"
     | "Gilroy-Regular"
     | "Nexa"
+    |"Quicksand-bold"
+    |"Quicksand-Book"
     | "Quicksand";
   variant:
     | "v1"
@@ -46,12 +48,17 @@ interface IProps {
     | "v16"
     | "text";
   styles?: string;
+  span?:string;
+  spanStyle?:string;
 }
 
-export const Typography = ({ label, font, variant, color, styles }: IProps) => {
+export const Typography = ({ label, font, variant, color, styles,span,spanStyle }: IProps) => {
   return (
     <div className={classNames(`${font}`, `${variant}`, `${color}`, styles && `${styles}`)}>
       {label}
+      {
+        span && <span className={classNames(spanStyle && `${spanStyle}`)}>{span}</span>
+      }
     </div>
   );
 };

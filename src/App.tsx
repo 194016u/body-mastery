@@ -1,11 +1,11 @@
 import React from 'react'
-import { Button } from './stories/Button'
+import { ContactPage } from './components/pages/ContactPage/ContactPage'
 
 export default function App() {
   return (
-    <div>App
+    <div>
 
-      <Button label={''}></Button>
+      <ContactPage/>
     
     </div>
   )

@@ -1,22 +1,29 @@
+.side-image-section-wrapper {
+  width: 584px;
+  height: 824px;
 
-.side-image-section-wrapper{
-
-    width: 584px;
-    height: 824px;
-    border-radius: 20px;
+  background: linear-gradient(
+    180deg,
+    #f6c2cf -2.96%,
+    #ebffcf 51.76%,
+    #f6c2cf 103.7%
+  );
+  border-radius: 20px;
+  .image-container {
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    justify-content: start;
-    background: linear-gradient(180deg, #F6C2CF -2.96%, #EBFFCF 51.76%, #F6C2CF 103.7%);
-    
+    justify-content: space-between;
+
+    .typography-section{
+        text-align: center;
+    }
+  }
 }
 
-.image1 img {
-
-    width: 320px;
-    display: flex;
-    height: 584px;
-}
-
-
+// .image1 img {
+//   width: 320px;
+//   display: flex;
+//   height: 584px;
+// }

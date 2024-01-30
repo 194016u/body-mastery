@@ -13,10 +13,10 @@ export const TextAreaLabel = () => {
 
   return (
     <div className={classNames("text-area-label-wrapper")}>
-      <div className="typography">
+      <div className="text-area-typography">
         <Typography
           label="Message"
-          font="Quicksand"
+          font="Quicksand-bold"
           variant="v2"
           color="gunmetalGray"
         />

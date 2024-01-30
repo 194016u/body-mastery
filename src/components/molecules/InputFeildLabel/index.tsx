@@ -17,10 +17,10 @@ export const InputFeildLabel = ({label,placeholder}:IProps) => {
 
     return (
       <div className={classNames("input-feild-label-wrapper")}>
-        <div className="typography">
+        <div className="input-field-typography">
           <Typography
             label={label}
-            font="Quicksand"
+            font="Quicksand-bold"
             variant="v2"
             color="gunmetalGray"
           />
