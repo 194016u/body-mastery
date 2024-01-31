@@ -1,0 +1,32 @@
+.expertise-section-wrapper {
+    display: flex;
+    height: 653px;
+    width: 100%;
+    background: linear-gradient(78deg, #FFFFB6 0%, #FFBF7D 73.72%);
+
+
+
+    flex-direction: row;
+    .expertise-left-section {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      gap: 40px;
+      text-align: center;
+      
+  
+      .expertise-title {
+        margin-top: 134px;
+        
+      }
+      .expertise-description {
+        margin-top: 22px;
+        text-align: justify;
+      }
+    }
+    .expertise-right-section {
+      display: flex;
+      width: 50%;
+    }
+  }
+  
