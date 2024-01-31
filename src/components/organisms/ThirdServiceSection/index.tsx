@@ -2,6 +2,7 @@ import React from "react";
 import { Typography } from "../../atoms/Typography";
 import "./index.scss";
 import { Chapter } from "../../molecules/Chapter";
+import service_img02 from "./../../../assets/service_img02.png"
 
 export const ThirdServiceSection = () => {
     return (
@@ -48,6 +49,9 @@ export const ThirdServiceSection = () => {
 
         </div>
         <div className="right-service-section-02">
+        <div className="service-image02">
+            <img src={service_img02} alt="service_img02"/>
+      </div>
 
         </div>
         </div>

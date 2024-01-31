@@ -1,6 +1,7 @@
 import React from "react";
 import { Typography } from "../../atoms/Typography";
 import "./index.scss";
+import expertist_img from "./../../../assets/expertist.png"
 
 export const ExpertiseSection = () => {
   return (
@@ -23,7 +24,12 @@ export const ExpertiseSection = () => {
           />
         </div>
       </div>
-      <div className="expertise-right-section">hello</div>
+      <div className="expertise-right-section">
+      <div className="service-image02">
+            <img src={expertist_img} alt="sexpertist_img"/>
+      </div>
+
+      </div>
     </div>
   );
 };

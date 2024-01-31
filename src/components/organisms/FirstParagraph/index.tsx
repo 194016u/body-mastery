@@ -1,6 +1,7 @@
 import React from "react";
 import { Typography } from "../../atoms/Typography";
 import "./index.scss";
+import about_us_img from "./../../../assets/pic_01.png"
 
 export const FirstParagraph = () => {
   return (
@@ -10,7 +11,7 @@ export const FirstParagraph = () => {
           <Typography
             label="About Us"
             font="Birds-of-Paradise"
-            variant="v10"
+            variant="v15"
             color="gunmetalGray"
           />
         </div>
@@ -23,7 +24,12 @@ export const FirstParagraph = () => {
           />
         </div>
       </div>
-      <div className="right-section">hello</div>
+      <div className="right-section">
+        <div className="about-us-pic">
+            <img src={about_us_img} alt="about_us_img"/>
+      </div>
+        
+      </div>
     </div>
   );
 };
