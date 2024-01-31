@@ -19,6 +19,9 @@ interface IProps {
     |"black"
     |"purpleMountainMajesty"
     |"russianViolet"
+    |"lightyellow"
+    |"lightblue"
+    |"lightpurple"
     |"pink";
 
 
@@ -27,6 +30,7 @@ interface IProps {
     | "Gilroy-light"
     | "Gilroy-Regular"
     | "Nexa"
+    |"Nexa-heavy"
     |"Quicksand-bold"
     |"Quicksand-Book"
     | "Quicksand";
