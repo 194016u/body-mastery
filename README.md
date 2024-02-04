@@ -1,8 +1,8 @@
 # Getting Started with body-mistry
 
-This project is react-typescript project.
+## This project is react-typescript project.
 
-Follow below steps to setup the project
+## Follow below steps to setup the project
 
 1.Make a directory on your machine.
 
