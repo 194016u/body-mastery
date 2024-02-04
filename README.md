@@ -24,7 +24,7 @@
 8.Save all changes.
 
 9.Run below command.
-### `npm start`,
+### `npm start`
 
 10.There are 2 routes.
 ### `http://localhost:3000/contact-us`
