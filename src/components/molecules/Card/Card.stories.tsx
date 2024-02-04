@@ -22,8 +22,8 @@ export const Card: Story = {
   },
 };
 
-Card.args={
-    label:"dafault label",
-    paragraph:"I am older and need all the help I can get. The services provided give more than what they detail. Their guidance provided me better results than I was expecting. If you want lasting results, you need more than procedures at your appointment and they provide that. Thank you so much Marianne",
-
-}
+Card.args = {
+  label: "dafault label",
+  paragraph:
+    "I am older and need all the help I can get. The services provided give more than what they detail. Their guidance provided me better results than I was expecting. If you want lasting results, you need more than procedures at your appointment and they provide that. Thank you so much Marianne",
+};

@@ -1,14 +1,13 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { PricingSection as DefaultPricingSection } from ".";
 
-
 const meta: Meta<typeof DefaultPricingSection> = {
-    component: DefaultPricingSection,
-    tags: ["autodocs"],
-    title: "Component/organisms/PricingSection",
-  };
+  component: DefaultPricingSection,
+  tags: ["autodocs"],
+  title: "Component/organisms/PricingSection",
+};
 
-  export default meta;
+export default meta;
 type Story = StoryObj<typeof DefaultPricingSection>;
 
 export const PricingSection: Story = {

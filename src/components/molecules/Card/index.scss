@@ -1,34 +1,42 @@
-.card-wrapper{
-    display:flex;
-    flex-direction: column;
-    width: 397px;
-    height: 388px;
-    border-radius: 15px;
-    background: #DDE0F8;
-    .card-section{
-       margin-left: 16px;
- 
-    }
-    
-    .card-title{
-        display: flex;
-        margin-top: 31px;
-    }
-    .card-paragraph{
-        display: flex;
-        justify-content: center;
-        height: 260px;
-    }
+@import "./../../../styles/palettes/color.scss";
 
-    .star-5{
-        width: 153px;
-        height: 23px;
-        padding-bottom: 2px;
-        display: flex;
-        justify-content: center;
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 397px;
+  height: 388px;
+  border-radius: 15px;
+  background: $lightPurple;
+  .card-section {
+    margin-left: 16px;
+  }
 
+  .card-title {
+    display: flex;
+    margin-top: 31px;
+  }
+  .card-paragraph {
+    display: flex;
+    justify-content: center;
+    height: 260px;
+  }
 
-    }
-    
+  .star-5 {
+    width: 153px;
+    height: 23px;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: center;
+  }
+}
 
+.bg-purple {
+  background-color: $lightPurple;
+}
+.bg-blue {
+  background-color: $lightblue;
+}
+
+.bg-yellow {
+  background-color: $lightyellow;
 }

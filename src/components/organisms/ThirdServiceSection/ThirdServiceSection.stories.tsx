@@ -1,14 +1,13 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { ThirdServiceSection as DefaultThirdServiceSection } from ".";
 
-
 const meta: Meta<typeof DefaultThirdServiceSection> = {
-    component: DefaultThirdServiceSection,
-    tags: ["autodocs"],
-    title: "Component/organisms/ThirdServiceSection",
-  };
+  component: DefaultThirdServiceSection,
+  tags: ["autodocs"],
+  title: "Component/organisms/ThirdServiceSection",
+};
 
-  export default meta;
+export default meta;
 type Story = StoryObj<typeof DefaultThirdServiceSection>;
 
 export const ThirdServiceSection: Story = {

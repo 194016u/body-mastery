@@ -1,11 +1,9 @@
-.chapter-wrapper{
-    display: flex;
-    flex-direction: column;
-    gap:16px;
+.chapter-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 
-    
-    .chapter-paragraph{
-        margin-bottom: 30px;
-    }
-
+  .chapter-paragraph {
+    margin-bottom: 30px;
+  }
 }

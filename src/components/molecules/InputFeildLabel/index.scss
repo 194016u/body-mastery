@@ -1,12 +1,11 @@
+.input-feild-label-wrapper {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: start;
 
-.input-feild-label-wrapper{
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    justify-content: start;
-
-    .input-field-typography{
-        text-align: start;
-    }
+  .input-field-typography {
+    text-align: start;
+  }
 }

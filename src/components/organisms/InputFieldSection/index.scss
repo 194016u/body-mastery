@@ -1,0 +1,17 @@
+.input-feild-section-wrapper {
+  width: 100%;
+  height: fit-content;
+  flex-shrink: 0;
+
+  background: #fff;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  justify-content: start;
+}
+
+.contact-us-custom-input-field {
+  padding: 15px 10px;
+  margin-right: 10px;
+}

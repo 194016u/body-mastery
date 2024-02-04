@@ -1,14 +1,13 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { TextOptionSection as DefaultTextOptionSection } from ".";
 
-
 const meta: Meta<typeof DefaultTextOptionSection> = {
-    component: DefaultTextOptionSection,
-    tags: ["autodocs"],
-    title: "Component/organisms/TextOptionSection",
-  };
+  component: DefaultTextOptionSection,
+  tags: ["autodocs"],
+  title: "Component/organisms/TextOptionSection",
+};
 
-  export default meta;
+export default meta;
 type Story = StoryObj<typeof DefaultTextOptionSection>;
 
 export const TextOptionSection: Story = {

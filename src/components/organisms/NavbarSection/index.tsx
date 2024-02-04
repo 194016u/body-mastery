@@ -1,15 +1,34 @@
+import { useState } from "react";
 import classNames from "classnames";
 import { Button } from "../../atoms/Button";
-import "./index.scss"; 
+import { Modal } from "../../molecules/Modal";
+import { AppointmentBookAllSection } from "../AppoinmentBookAllSection";
+import "./index.scss";
 
-export const NavebarSection = ()=>{
+export const NavebarSection = () => {
+  const [toggleModal, setToggleModal] = useState(false);
 
-    return(
-        <div className={classNames("navbar-section-wrapper")}>
-            <Button label={"Book Appointment"} type={"bookAppointment"}/>
-            <Button label={"Contact Us"} type={"contactUs"}/>
+  const ContactUsModelToggler = () => {
+    setToggleModal(!toggleModal);
+  };
+  return (
+    <>
+      <div className={classNames("navbar-section-wrapper")}>
+        <Button
+          label={"Book Appointment"}
+          type={"bookAppointment"}
+          onClick={ContactUsModelToggler}
+        />
+        <Button label={"Contact Us"} type={"contactUs"} />
+      </div>
 
+      <Modal isOpen={toggleModal} onClose={() => setToggleModal(false)}>
+        <div className={classNames("modal-sample-wrapper")}>
+          <div className={classNames("modal-sample-body-wrapper")}>
+            <AppointmentBookAllSection />
+          </div>
         </div>
-    );
-
+      </Modal>
+    </>
+  );
 };

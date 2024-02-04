@@ -22,7 +22,7 @@ export const Pricing: Story = {
   },
 };
 
-Pricing.args={
-    label:"dafault label",
-    paragraph:"dafault paragraph"
-}
+Pricing.args = {
+  label: "dafault label",
+  paragraph: "dafault paragraph",
+};

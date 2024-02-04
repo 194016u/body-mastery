@@ -1,14 +1,13 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { SideImageSection as DefaultSideImageSection } from ".";
 
-
 const meta: Meta<typeof DefaultSideImageSection> = {
-    component: DefaultSideImageSection,
-    tags: ["autodocs"],
-    title: "Component/organisms/SideImageSection",
-  };
+  component: DefaultSideImageSection,
+  tags: ["autodocs"],
+  title: "Component/organisms/SideImageSection",
+};
 
-  export default meta;
+export default meta;
 type Story = StoryObj<typeof DefaultSideImageSection>;
 
 export const SideImageSection: Story = {

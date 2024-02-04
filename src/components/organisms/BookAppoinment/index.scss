@@ -1,0 +1,23 @@
+@import "./../../../styles/palettes/color.scss";
+
+.book-appointment-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-right: 20px;
+  .book-appointment-input-custom-style {
+    padding: 10px !important;
+    background-color: $offWhite;
+  }
+  .first-input-field-section,
+  .second-input-field-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .input-group {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+}

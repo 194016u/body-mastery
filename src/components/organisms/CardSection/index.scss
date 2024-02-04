@@ -1,34 +1,33 @@
-.card-section-wrapper{
+@import "./../../../styles/palettes/color.scss";
 
+.card-section-wrapper {
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  .card-section-topic {
     display: flex;
-     height: fit-content;
-     flex-direction: column;
-     text-align: center;
-     justify-content: center;
-     gap: 22px;
-     .card-section-topic{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+  }
 
-     }
+  .card-section-part {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: start;
+    .left_arrow,
+    .right_arrow {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
 
-    .card-section-part{
-        width: fit-content;
-        display: flex;
-        flex-direction: row;
-        gap: 24px;
-        justify-content: start;
+      img {
+        cursor: pointer;
+      }
     }
-    .left_arrow{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .right_arrow{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
-    }
+  }
 }

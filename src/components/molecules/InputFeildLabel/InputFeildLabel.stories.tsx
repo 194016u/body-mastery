@@ -11,31 +11,13 @@ export default meta;
 type Story = StoryObj<typeof DefaultInputFeildLabel>;
 
 export const InputFeildLabel: Story = {
-  // argTypes:{
-  //   label:{
-  //     option:[
-  //       "Name",
-  //       "Phone Number",
-  //       "Email",
-  //     ],
-  //     control:{type:"radio"}
-  //   },
-  //   placeholder:{
-  //     option:[
-  //       "Your Name",
-  //       "Your Phone Number",
-  //       "Your Email",
-  //     ],
-  //     control:{type:"radio"}
-  //   }
-  // },
-    render: function Render(args) {
-      return (
-        <>
-          <div>
-            <DefaultInputFeildLabel {...args} />
-          </div>
-        </>
-      );
-    },
-  };
+  render: function Render(args) {
+    return (
+      <>
+        <div>
+          <DefaultInputFeildLabel {...args} />
+        </div>
+      </>
+    );
+  },
+};

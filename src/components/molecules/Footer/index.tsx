@@ -4,15 +4,16 @@ import './index.scss';
 
 interface IProps{
     styles?:string;
+    label:string
 }
 
-export const Footer =({styles}: IProps)=>{
+export const Footer =({styles,label}: IProps)=>{
   return(
     <div>
         <footer className={classNames('footer-feild',styles && `${styles}`)}>
        
         <Typography
-            label="Copyright 2023.All Rights Reserved."
+            label={label}
             variant="v2" 
             color="richBlack" 
             font="Gilroy-Regular"          

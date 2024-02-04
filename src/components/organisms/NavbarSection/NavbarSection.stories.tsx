@@ -1,14 +1,13 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { NavebarSection as DefaultNavbarSection } from ".";
 
-
 const meta: Meta<typeof DefaultNavbarSection> = {
-    component: DefaultNavbarSection,
-    tags: ["autodocs"],
-    title: "Component/organisms/NavbarSection",
-  };
+  component: DefaultNavbarSection,
+  tags: ["autodocs"],
+  title: "Component/organisms/NavbarSection",
+};
 
-  export default meta;
+export default meta;
 type Story = StoryObj<typeof DefaultNavbarSection>;
 
 export const NavbarSection: Story = {

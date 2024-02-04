@@ -1,14 +1,13 @@
-import React from 'react'
-import { ContactPage } from './components/pages/ContactPage/ContactPage'
-import { AestheticBodyPAge } from './components/pages/AestheticBodyPage/AestheticBodyPage'
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import { ContactPage } from "./components/pages/ContactPage";
+//import { AestheticBodyPAge } from "./components/pages/AestheticBodyPage";
+import { AppRoutes } from "./routes";
 
 export default function App() {
   return (
-    <div>
-
-      <ContactPage/>
-      <AestheticBodyPAge/>
-    
-    </div>
-  )
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
+  );
 }

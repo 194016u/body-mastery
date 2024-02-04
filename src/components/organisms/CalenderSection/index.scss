@@ -1,0 +1,23 @@
+@import "./../../../styles/palettes/color.scss";
+
+.calender-section-wrapper {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: $lightyellow;
+  .calender-title-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .middle-calender-section {
+    display: flex;
+    justify-content: center;
+  }
+  .calender-price-section {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+    gap: 15px;
+    margin-top: 115px;
+  }
+}

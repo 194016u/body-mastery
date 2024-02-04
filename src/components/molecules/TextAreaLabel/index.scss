@@ -1,14 +1,11 @@
+.text-area-label-wrapper {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: start;
 
-
-.text-area-label-wrapper{
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    justify-content: start;
-
-    .text-area-typography{
-        text-align: start;
-    }
+  .text-area-typography {
+    text-align: start;
+  }
 }
-

@@ -1,7 +1,6 @@
-import React from "react";
 import { Typography } from "../../atoms/Typography";
+import about_us_img from "./../../../assets/pic_01.png";
 import "./index.scss";
-import about_us_img from "./../../../assets/pic_01.png"
 
 export const FirstParagraph = () => {
   return (
@@ -26,9 +25,8 @@ export const FirstParagraph = () => {
       </div>
       <div className="right-section">
         <div className="about-us-pic">
-            <img src={about_us_img} alt="about_us_img"/>
-      </div>
-        
+          <img src={about_us_img} alt="about_us_img" />
+        </div>
       </div>
     </div>
   );

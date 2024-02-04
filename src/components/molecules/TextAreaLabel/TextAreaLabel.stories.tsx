@@ -15,9 +15,13 @@ export const TextAreaLabel: Story = {
     return (
       <>
         <div>
-          <DefaultTextAreaLabel />
+          <DefaultTextAreaLabel {...args} />
         </div>
       </>
     );
   },
+};
+
+TextAreaLabel.args = {
+  value: "default",
 };

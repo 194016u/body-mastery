@@ -15,10 +15,8 @@
   }
 
   .contact-body-section {
-    // width: 1440px;
-    // height: 1281px;
     padding: 100px;
-    background: #fffbf1;
+    background: $alabaster;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -32,7 +30,7 @@
       flex-direction: row;
       justify-content: space-between;
       border-radius: 30px;
-      background: #fff;
+      background: $white;
       box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
 
       .contact-input-feild-section {
@@ -44,23 +42,23 @@
         padding-left: 41px;
         padding-right: 41px;
         width: 50%;
-        
 
-        .span-style{
-            color: $cottonCandyPink;
+        .span-style {
+          color: $cottonCandyPink;
         }
 
-        .button-section{
+        .button-section {
           display: flex;
           flex-direction: column;
           justify-content: start;
           gap: 23px;
         }
       }
-      .image-section{
+      .image-section {
         width: 50%;
+        display: flex;
+        justify-content: center;
       }
     }
   }
 }
-

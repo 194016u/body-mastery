@@ -22,7 +22,7 @@ export const Chapter: Story = {
   },
 };
 
-Chapter.args={
-    label:"dafault label",
-    paragraph:"dafault paragraph"
-}
+Chapter.args = {
+  label: "dafault label",
+  paragraph: "dafault paragraph",
+};

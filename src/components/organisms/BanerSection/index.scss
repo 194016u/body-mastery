@@ -1,6 +1,13 @@
+@import "./../../../styles/palettes/color.scss";
+
 .baner-section-wrapper {
   width: 100%;
-  background: linear-gradient(180deg, #ebffcf 0%, #fbe5d8 51.56%, #f6c2cf 100%);
+  background: linear-gradient(
+    180deg,
+    $shadeGreen 0%,
+    $peach 51.56%,
+    $shadePink 100%
+  );
   padding: 40px 0px 61px 0px;
 
   .up-both-image {

@@ -1,13 +1,10 @@
-.Pricing-wrapper{
-    display: flex;
-    flex-direction: column;
-    gap:20px;
-    text-align: center;
+.Pricing-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
 
-    
-    .pricing-paragraph{
-        margin-bottom: 40px;
-    }
-    
-
+  .pricing-paragraph {
+    margin-bottom: 40px;
+  }
 }

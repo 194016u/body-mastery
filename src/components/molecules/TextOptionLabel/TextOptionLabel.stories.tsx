@@ -11,23 +11,17 @@ export default meta;
 type Story = StoryObj<typeof DefaultTextOptionLabel>;
 
 export const TextOptionLabel: Story = {
-  argTypes:{
-    lable:{
-      option:[
-        "Pricing",
-        "Booking",
-        "Cancellation",
-        "Other"
-      ],
-      control:{type:"radio"}
-    }
+  argTypes: {
+    lable: {
+      option: ["Pricing", "Booking", "Cancellation", "Other"],
+      control: { type: "radio" },
+    },
   },
   render: function Render(args) {
-   
     return (
       <>
         <div>
-          <DefaultTextOptionLabel {...args}/>
+          <DefaultTextOptionLabel {...args} />
         </div>
       </>
     );

@@ -1,8 +1,8 @@
 import classNames from "classnames";
 import { Typography } from "../../atoms/Typography";
-import "./index.scss";
 import image1 from "./../../../assets/img_1.png";
 import image2 from "./../../../assets/img_2.png";
+import "./index.scss";
 
 export const SideImageSection = () => {
   return (
@@ -13,10 +13,10 @@ export const SideImageSection = () => {
           <Typography
             label="Sculpting dreams. Mastering realities."
             font="Birds-of-Paradise"
-            variant="v11"
+            variant="v12"
             color="gunmetalGray"
           />
-           </div>
+        </div>
         <img src={image2} alt="image2" />
       </div>
     </div>
